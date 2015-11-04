@@ -11,6 +11,9 @@
     "vendors"
   ],
   "dependencies": {
-    "jquery": "~2.1.4"
+    "jquery": "~2.1.4",
+    "normalize-scss": "~3.0.3",
+    "csswizardry-grids": "~2.2.0",
+    "sass-mediaqueries": "~1.6.1"
   }
 }

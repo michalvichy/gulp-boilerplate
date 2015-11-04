@@ -1,7 +1,12 @@
-@import "settings/vars";
+// Normalize
+@import '../../bower_components/normalize-scss/normalize';
 
-section {
-    background-color: $black;
-    height: 300px;
-    width: 354px;
-}
+// Project settings
+@import 'settings/settings';
+
+// Vendors
+@import '../../bower_components/csswizardry-grids/csswizardry-grids';
+@import '../../bower_components/sass-mediaqueries/media-queries';
+
+@import 'settings/vars';
+@import 'settings/mixins';
